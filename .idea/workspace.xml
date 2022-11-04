@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4e936-5a3a-40dd-9208-f325cfe4af43" name="Changes" comment="Zadanie 2, pierwsza próba">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zadanie5/Zadanie5Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zadanie6.java" afterDir="false" />
+    <list default="true" id="17a4e936-5a3a-40dd-9208-f325cfe4af43" name="Changes" comment="Zadanie 5  i Zadanie 6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zadanie7/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Zadanie7/Zadanie7Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Zadanie6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zadanie6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +42,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\java-zaawansowana-programowanie\zadaniaDomowe\zadaniaDomowe\src\main\java\Zadanie7" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Zadanie1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zadanie6">
+  <component name="RunManager" selected="Application.Zadanie7Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="zadaniaDomowe" />
@@ -92,8 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zadanie7Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zadanie7.Zadanie7Main" />
+      <module name="zadaniaDomowe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zadanie7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zadanie7Main" />
         <item itemvalue="Application.Zadanie6" />
         <item itemvalue="Application.Zadanie5Main" />
         <item itemvalue="Application.Zadanie2Main" />
@@ -124,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667165503559</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Zadanie 5  i Zadanie 6">
+      <created>1667601968956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667601968956</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Zadanie 1" />
     <MESSAGE value="Zadanie 2, pierwsza próba" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 2, pierwsza próba" />
+    <MESSAGE value="Zadanie 5  i Zadanie 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 5  i Zadanie 6" />
   </component>
 </project>
