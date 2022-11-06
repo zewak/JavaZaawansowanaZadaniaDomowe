@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17a4e936-5a3a-40dd-9208-f325cfe4af43" name="Changes" comment="Zadanie 5  i Zadanie 6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zadanie7/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Zadanie7/Zadanie7Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Zadanie6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Zadanie6.java" afterDir="false" />
-    </list>
+    <list default="true" id="17a4e936-5a3a-40dd-9208-f325cfe4af43" name="Changes" comment="Zadanie 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667601968956</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Zadanie 7">
+      <created>1667603888440</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667603888440</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +169,7 @@
     <MESSAGE value="Zadanie 1" />
     <MESSAGE value="Zadanie 2, pierwsza próba" />
     <MESSAGE value="Zadanie 5  i Zadanie 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 5  i Zadanie 6" />
+    <MESSAGE value="Zadanie 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 7" />
   </component>
 </project>

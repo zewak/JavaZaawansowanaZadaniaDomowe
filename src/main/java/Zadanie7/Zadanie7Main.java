@@ -1,9 +1,8 @@
 package Zadanie7;
 
 import javax.naming.event.ObjectChangeListener;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Utwórz klasę Employee z polami id, name oraz salary . Utwórz niezbędne metody i
@@ -35,11 +34,31 @@ public class Zadanie7Main {
         System.out.println("Szukamy:");
         Employee findEmployee = employeeList.stream()
                 .filter(Objects::nonNull)
-                .filter(employee -> employee.getSalary() >= 3000)
+                .filter(employee -> employee.getSalary() >= 1500)
                 .findFirst()
                 .orElseThrow(() -> new RuntimeException("Not found!"));
 
         System.out.println(findEmployee);
 
+        // Zadanie 8.
+        List <Employee> employeesSorted = employeeList.stream()
+                .sorted(Comparator.comparing(Employee::getName).reversed())
+                .collect(Collectors.toList());
+        System.out.println("Zadanie 8 - sortowanie po nazwisku /odwrotnie");
+        System.out.println(employeesSorted);
+
+        //Zadanie 9
+
+        Integer maxSalary = employeeList.stream()
+                //.map(Employee::getSalary)
+                .map(e -> e.getSalary())
+                .max(Comparator.naturalOrder())
+                .orElseThrow(NoSuchElementException::new);
+        System.out.println("Zadanie 9 max salary: "+ maxSalary);
+
+
+
     }
+
+
 }
